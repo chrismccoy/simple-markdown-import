@@ -1,0 +1,92 @@
+/**
+ * Simple Markdown Import - Admin Styles
+ */
+
+.smi-card {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    padding: 20px;
+    max-width: 800px;
+    margin-top: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.smi-notice {
+    margin: 15px 0;
+    padding: 10px 12px;
+    border-left: 4px solid #72aee6;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    display: none;
+}
+
+.smi-notice.success {
+    border-left-color: #46b450;
+}
+
+.smi-notice.error {
+    border-left-color: #dc3232;
+}
+
+.smi-console {
+    background: #1d2327;
+    color: #f0f0f1;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-family: monospace;
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #c3c4c7;
+    display: none;
+}
+
+.smi-log-line {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #2c3338;
+    padding-bottom: 2px;
+}
+
+.smi-log-line:last-child {
+    border-bottom: none;
+    color: #72aee6;
+}
+
+.spinner {
+    float: none;
+    vertical-align: bottom;
+    margin-left: 10px;
+}
+
+.smi-section {
+    display: none;
+}
+
+.smi-section.active {
+    display: table-row;
+}
+
+.smi-file-upload-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+input[type="file"].smi-hidden-input {
+    display: none;
+}
+
+label.smi-file-btn {
+    cursor: pointer;
+}
+
+#smi-file-name {
+    font-style: italic;
+    color: #646970;
+}
+
+#markdown_paste {
+    min-height: 300px;
+    resize: vertical;
+    font-family: monospace;
+}
